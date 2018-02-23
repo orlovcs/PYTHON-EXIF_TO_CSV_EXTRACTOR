@@ -115,7 +115,7 @@ for srtfile in videolist:
      
      
           
-     myFile = open('as.csv', 'w')
+     myFile = open('a.csv', 'w')
      with myFile:
          writer = csv.writer(myFile)
          writer.writerows(myData)
